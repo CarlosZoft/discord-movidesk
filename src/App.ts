@@ -12,7 +12,7 @@ class App {
   }
 
   routes() {
-    this.app.use("/", (_request: Request, response: Response) => {
+    this.app.use("/test", (_request: Request, response: Response) => {
       response.send("API is running");
     });
     this.app.use("/sendData", async (request: Request, response: Response) => {
