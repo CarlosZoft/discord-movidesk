@@ -1,6 +1,6 @@
+import discordApi from "./services/discord";
 import express from "express";
 import type { Express, Response, Request } from "express";
-import discordApi from "./services/discord";
 import type { IMovi, IDiscord } from "./interfaces";
 
 class App {
